@@ -1,0 +1,274 @@
+*
+	box-sizing: border-box
+body
+	margin: 0
+	padding: 0 0 30px 0
+	background-color: #e1f0f8
+	font-family: 'Open Sans', sans-serif
+.dop
+	width: 30%
+	float: right
+	padding-right: 20px
+
+.head
+	width: 80%
+	margin: 0 auto
+	background-color: white
+	overflow: inherit
+	padding-top: 10px
+	img
+		margin-left: 15px
+#cost
+	float: right
+	font-size: 1.15em
+	vertical-align: center
+	margin-top: 75px
+	text-decoration: underline
+	color: #f36240
+.time
+	position: relative
+	top: 40px
+	p
+		font-size: 0.86em
+.info
+	text-align: right
+	padding-right: 30px
+	
+.telephone
+	position: relative
+	top: 25px
+	p
+		font-size: 1.6em
+		font-weight: 400
+.menu
+	width: 100%
+	ul
+		width: 100%
+		margin: 25px 0 0 0
+		padding: 0
+		
+		text-align: center
+		list-style: none
+		li
+			width: 20%
+			display: inline-block
+			a
+				text-decoration: none
+				font-size: 1.3em
+				padding: 14px 0
+				display: block
+				margin: 0
+				color: #888e95
+				border-right: 0.3px solid #5f6973
+				&:hover
+					background-color: #7bc3d5
+					color: white
+			
+#bor
+	border: none
+.section_title
+	width: 80%
+	margin: 0 auto
+	padding: 20px 0
+	color: #4b4b4b
+	h1
+		font-weight: 200
+		font-size: 2.9em
+		margin-bottom: 0
+	h2
+		font-weight: 200
+		margin-top: 0
+.section_main
+	width: 80%
+	margin: 0 auto
+.sidebar
+	width: 23%
+	float: left
+	background-color: white
+	padding: 15px
+	ul
+		margin: 0
+		padding: 0
+		list-style: none
+		li
+			margin: 10px 0
+			a
+				text-decoration: underline
+				color: #a5a5a5
+				font-size: 1.3em
+				font-weight: 200
+				&:hover
+					color: #f36240
+	h3
+		font-size: 1.3em
+		font-weight: 200
+.cont
+	width: 75%
+	float: right
+	background-color: white		
+.next
+	margin-top: 20px
+	padding: 10px 10px 30px 20px
+	h3
+		font-weight: 200
+		font-size: 1.6em
+	p
+		margin-left: 70px
+		position: relative
+		&:before
+			content: url('../img/Forma1.png')
+			position: absolute
+			z-index: 200
+			left: -70px
+			top: 10px
+		&:nth-child(3)
+			margin-bottom: 30px
+			&:before
+				content: url('../img/Forma2.png')
+	ol
+		list-style-type: none
+		counter-reset: item
+		li
+			position: relative
+			margin-bottom: 20px
+			&:before
+				content: counter(item)
+				counter-increment: item
+				position: absolute
+				left: -47px
+				font-size: 1.8em
+				padding: 0px 12px
+				border: 1px solid black
+				border-radius: 25px
+
+
+
+.start
+	padding: 10px 10px 30px 10px
+	h2
+		font-weight: 200
+		font-size: 1.7em
+.pic
+	width: 40%
+	float: left
+	img
+		display: block
+		margin-left: 60px
+	h4
+		text-align: center
+		font-size: 1.2em
+		font-weight: 200
+		color: #a5a5a5
+.descr
+	width: 60%
+	float: right
+	a
+		color: #8a8a8a
+		text-decoration: underline
+		position: relative
+		top: 15px
+
+	ul
+		margin: 0
+		padding: 0
+		li
+			margin-bottom: 10px
+			color: #eb5825
+			a
+				color: black
+				position: static
+				text-decoration: none
+			&:last-child
+				margin-bottom: 25px
+	h3
+		font-weight: 200
+		font-size: 1.4em
+		color: #797979
+	p
+		margin: 20px 0 30px 0
+#price
+	padding: 10px 30px
+	background-color: #eb5825
+	border-radius: 5px
+	color: white
+	text-decoration: none
+	position: static
+.section_title_second
+	width: 75%
+	float: right
+	padding: 15px 0 0 0
+	color: #4b4b4b
+	h2
+		font-weight: 200
+		font-size: 1.6em
+	a
+		float: right
+		position: relative
+		top: 30px
+		text-decoration: underline
+		color: #f36240
+		font-size: 1.1em
+		font-weight: 200
+.finish
+	padding: 20px 20px 80px 20px
+	margin-bottom: 30px
+	h4
+		margin: 5px 0
+		font-size: 1.4em
+		font-weight: 100
+	h5
+		margin: 0
+		color: #929292
+		font-weight: 100
+		font-size: 1.0em
+	img
+		margin: 10px 0
+	p
+		margin-top: 0
+	a
+		text-decoration: none
+		color: #f36240
+		border-bottom: 1px dashed #f36240
+		font-size: 1.05em
+		margin-left: 20px
+		position: relative
+		&:before
+			content: url('../img/mark1.png')
+			position: absolute
+			left: -20px
+			bottom: -5px
+#but
+	padding: 10px 30px
+	background-color: #eb5825
+	border-radius: 5px
+	color: white
+	text-decoration: none
+	position: relative
+	margin: 0
+	top: 40px
+	&:before
+			content: ''
+.material
+	position: realtive
+	width: 100%
+	label
+		position: relative
+		img
+			&:hover
+				cursor: pointer
+span
+	&:before
+		content: url('../img/ok.png')
+		font-size: 1.8em
+		color: red
+		position: absolute
+		left: 18px
+		bottom: 15px
+		z-index: 600
+		visibility: hidden		
+.radio
+	position: absolute
+	visibility: hidden
+	&:checked+
+		span:before
+			visibility: visible
